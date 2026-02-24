@@ -1,29 +1,22 @@
+/* Le conteneur gris qui entoure toutes les cartes */
 .logements-container {
+  background-color: #f6f6f6; /* Gris clair de la maquette */
+  border-radius: 25px; /* Coins arrondis */
+  padding: 50px; /* Espace à l'intérieur du bloc gris */
+  margin: 40px 100px; /* Aligne le bloc avec le logo et le menu */
+
+  /* Organisation des cartes en 3 colonnes */
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 colonnes de taille égale */
-  gap: 50px; /* L'espace entre les carrés */
-  padding: 50px 100px;
-  background-color: #f6f6f6; /* Le fond gris clair de la maquette */
-  margin: 50px 100px;
-  border-radius: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px; /* Espace entre les cartes */
 }
 
-/* On adapte pour les tablettes (2 colonnes) */
-@media (max-width: 1024px) {
-  .logements-container {
-    grid-template-columns: repeat(2, 1fr);
-    margin: 20px 50px;
-    padding: 20px;
-  }
-}
-
-/* On adapte pour les mobiles (1 seule colonne, pas de fond gris) */
+/* On n'oublie pas le mobile pour que ton site reste beau partout */
 @media (max-width: 768px) {
   .logements-container {
-    grid-template-columns: 1fr;
-    background-color: transparent;
-    margin: 0 20px;
+    background-color: transparent; /* Souvent transparent sur mobile */
     padding: 0;
-    gap: 20px;
+    margin: 20px;
+    grid-template-columns: 1fr; /* 1 seule colonne sur téléphone */
   }
 }

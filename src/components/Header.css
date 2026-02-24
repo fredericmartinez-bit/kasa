@@ -17,17 +17,24 @@
   gap: 50px; /* Espace entre Accueil et A Propos */
 }
 
-/* Le texte des liens */
+/* 1. Le texte des liens par défaut */
 .header-nav a {
-  text-decoration: none; /* Enlève la ligne bleue moche */
+  text-decoration: none;
   color: black;
   font-size: 24px;
 }
 
-/* Quand on passe la souris sur un lien */
+/* 2. Quand on passe la souris (Hover) : devient rouge */
 .header-nav a:hover {
-  text-decoration: underline;
-  color: #ff6060; /* Le rouge Kasa */
+  text-decoration: none;
+  color: black;
+}
+
+/* 3. L'état ACTIF (La page où l'on est) : DOIT rester noir */
+/* On le met en dernier avec !important pour qu'il gagne sur le rouge */
+.header-nav a.active {
+  text-decoration: underline !important;
+  color: black !important;
 }
 /* Responsive : pour les écrans de téléphone (Mobile) */
 @media (max-width: 768px) {

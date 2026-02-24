@@ -1,0 +1,6 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.footer img {
+  filter: brightness(0) invert(1);
+}

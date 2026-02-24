@@ -23,16 +23,25 @@
 
 .banner-text {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* On occupe TOUT l'espace de la bannière pour pouvoir centrer dedans */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  /* Flexbox est la méthode la plus robuste pour un centrage total */
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+
   color: white;
-  width: 100%;
-  text-align: center;
+  text-align: center; /* Important pour le cas où le texte passe sur 2 lignes */
   font-size: 48px;
   font-weight: 500;
+  margin: 0; /* On enlève les marges par défaut du h1 */
+  z-index: 10; /* On s'assure d'être au-dessus de l'image et de l'overlay */
+  padding: 0 20px; /* Petite sécurité pour les petits écrans */
 }
-
 /* On n'oublie pas la version mobile ! */
 @media (max-width: 768px) {
   .banner {
