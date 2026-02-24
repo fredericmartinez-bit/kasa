@@ -1,0 +1,48 @@
+.banner {
+  position: relative;
+  height: 223px; /* Hauteur fixe demandée par Paul */
+  margin: 0 100px; /* Aligné avec ton Header PC */
+  border-radius: 25px; /* Les bords arrondis de la maquette */
+  overflow: hidden; /* Pour que l'image ne dépasse pas des bords arrondis */
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* L'image remplit le cadre sans être écrasée */
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Le voile sombre */
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+/* On n'oublie pas la version mobile ! */
+@media (max-width: 768px) {
+  .banner {
+    margin: 20px;
+    height: 111px;
+    border-radius: 10px;
+  }
+  .banner-text {
+    font-size: 24px;
+    text-align: left; /* Comme sur la maquette mobile */
+    padding: 0 20px;
+  }
+}

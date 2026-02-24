@@ -1,0 +1,29 @@
+.logements-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colonnes de taille égale */
+  gap: 50px; /* L'espace entre les carrés */
+  padding: 50px 100px;
+  background-color: #f6f6f6; /* Le fond gris clair de la maquette */
+  margin: 50px 100px;
+  border-radius: 25px;
+}
+
+/* On adapte pour les tablettes (2 colonnes) */
+@media (max-width: 1024px) {
+  .logements-container {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px 50px;
+    padding: 20px;
+  }
+}
+
+/* On adapte pour les mobiles (1 seule colonne, pas de fond gris) */
+@media (max-width: 768px) {
+  .logements-container {
+    grid-template-columns: 1fr;
+    background-color: transparent;
+    margin: 0 20px;
+    padding: 0;
+    gap: 20px;
+  }
+}
