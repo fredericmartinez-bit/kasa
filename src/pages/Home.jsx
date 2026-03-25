@@ -1,8 +1,16 @@
+import { useEffect, useState } from "react";
 import Banner from "../components/Banner";
 import Card from "../components/Card";
-import logements from "../data/logements";
 
 function Home() {
+  const [logements, setLogements] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:8080/api/properties")
+      .then((response) => response.json())
+      .then((data) => setLogements(data));
+  }, []);
+
   return (
     <>
       <Banner />
