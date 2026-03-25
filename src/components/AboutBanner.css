@@ -1,0 +1,8 @@
+.about-banner {
+  max-width: 1240px;
+  height: 223px;
+  margin: 0 auto 38px;
+  border-radius: 25px;
+  background-size: cover;
+  background-position: center;
+}

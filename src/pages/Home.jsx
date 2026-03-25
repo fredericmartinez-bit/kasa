@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Banner from "../components/Banner";
 import Card from "../components/Card";
+import "./Home.css";
 
 function Home() {
   const [logements, setLogements] = useState([]);
@@ -12,19 +13,20 @@ function Home() {
   }, []);
 
   return (
-    <>
+    <main className="home">
       <Banner />
-      <h1>Accueil</h1>
 
-      {logements.map((logement) => (
-        <Card
-          key={logement.id}
-          id={logement.id}
-          title={logement.title}
-          cover={logement.cover}
-        />
-      ))}
-    </>
+      <section className="home__gallery">
+        {logements.map((logement) => (
+          <Card
+            key={logement.id}
+            id={logement.id}
+            title={logement.title}
+            cover={logement.cover}
+          />
+        ))}
+      </section>
+    </main>
   );
 }
 
