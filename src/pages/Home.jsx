@@ -9,7 +9,12 @@ function Home() {
       <h1>Accueil</h1>
 
       {logements.map((logement) => (
-        <Card key={logement.id} title={logement.title} cover={logement.cover} />
+        <Card
+          key={logement.id}
+          id={logement.id}
+          title={logement.title}
+          cover={logement.cover}
+        />
       ))}
     </>
   );
