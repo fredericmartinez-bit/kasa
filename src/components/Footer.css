@@ -24,12 +24,13 @@
 @media (max-width: 768px) {
   .footer {
     margin-top: 0;
-    padding: 40px 0 30px;
-    gap: 12px;
+    padding: 32px 0 24px;
+    gap: 10px;
   }
 
   .footer__logo {
-    font-size: 48px;
+    width: 210px;
+    height: auto;
   }
 
   .footer__text {
