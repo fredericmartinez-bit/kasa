@@ -1,6 +1,6 @@
 .header {
   max-width: 1240px;
-  margin: 40px auto 50px;
+  margin: 45px auto 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,7 +14,7 @@
 
 .header__nav {
   display: flex;
-  gap: 40px;
+  gap: 57px;
 }
 
 .header__link {

@@ -3,6 +3,9 @@
   height: 223px;
   margin: 0 auto 43px;
   border-radius: 25px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../assets/home-banner.png");
   background-size: cover;
   background-position: center;
   display: flex;

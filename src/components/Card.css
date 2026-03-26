@@ -25,19 +25,22 @@
   position: absolute;
   inset: 0;
   background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.6),
-    rgba(255, 255, 255, 0)
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(10, 10, 10, 0) 42%,
+    rgba(4, 4, 4, 0.205) 99.99%,
+    rgba(0, 0, 0, 0.5) 100%
   );
 }
 
 .card__title {
   position: absolute;
   left: 20px;
+  right: 20px;
   bottom: 20px;
   margin: 0;
-  max-width: 70%;
   font-size: 18px;
   font-weight: 700;
+  line-height: 1.4;
   color: #ffffff;
 }
