@@ -20,16 +20,18 @@
   border: none;
   background: transparent;
   color: #ffffff;
-  font-size: 80px;
+  font-size: 120px;
+  font-weight: 400;
+  line-height: 1;
   cursor: pointer;
 }
 
 .carousel__button--left {
-  left: 24px;
+  left: 23px;
 }
 
 .carousel__button--right {
-  right: 24px;
+  right: 23px;
 }
 
 .carousel__counter {
