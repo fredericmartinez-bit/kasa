@@ -43,3 +43,30 @@
   font-weight: 500;
   color: #ffffff;
 }
+
+@media (max-width: 768px) {
+  .carousel {
+    height: 255px;
+    margin-bottom: 15px;
+  }
+
+  .carousel__image {
+    border-radius: 10px;
+  }
+
+  .carousel__button {
+    font-size: 24px;
+  }
+
+  .carousel__button--left {
+    left: 6px;
+  }
+
+  .carousel__button--right {
+    right: 6px;
+  }
+
+  .carousel__counter {
+    display: none;
+  }
+}

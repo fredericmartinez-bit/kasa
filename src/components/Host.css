@@ -21,3 +21,20 @@
   object-fit: cover;
   flex-shrink: 0;
 }
+
+@media (max-width: 768px) {
+  .host {
+    gap: 10px;
+  }
+
+  .host__name {
+    font-size: 12px;
+    text-align: right;
+    max-width: 70px;
+  }
+
+  .host__picture {
+    width: 32px;
+    height: 32px;
+  }
+}

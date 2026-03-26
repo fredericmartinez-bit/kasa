@@ -12,3 +12,13 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 768px) {
+  .tag {
+    min-width: 84px;
+    height: 18px;
+    padding: 0 12px;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+}

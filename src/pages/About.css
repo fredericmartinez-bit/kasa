@@ -10,3 +10,25 @@
   flex-direction: column;
   gap: 30px;
 }
+
+@media (max-width: 768px) {
+  .about {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .about__content {
+    margin: 0 0 27px;
+    gap: 20px;
+  }
+
+  .about__content .collapse__button {
+    height: 30px;
+    font-size: 13px;
+  }
+
+  .about__content .collapse__content p {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+}

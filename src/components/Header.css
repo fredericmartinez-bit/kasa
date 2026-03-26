@@ -27,3 +27,22 @@
 .header__link.active {
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  .header {
+    margin: 20px;
+  }
+
+  .header__logo {
+    width: 145px;
+  }
+
+  .header__nav {
+    gap: 20px;
+  }
+
+  .header__link {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+}

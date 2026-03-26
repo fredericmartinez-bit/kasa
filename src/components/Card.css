@@ -44,3 +44,18 @@
   line-height: 1.4;
   color: #ffffff;
 }
+
+@media (max-width: 768px) {
+  .card {
+    height: 255px;
+    border-radius: 10px;
+  }
+
+  .card__title {
+    font-size: 18px;
+    line-height: 1.4;
+    left: 20px;
+    right: 20px;
+    bottom: 15px;
+  }
+}

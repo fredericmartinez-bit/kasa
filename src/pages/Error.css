@@ -31,3 +31,30 @@
   color: #000000;
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  .error {
+    padding: 20px;
+  }
+
+  .error__title {
+    margin: 110px 0 113px;
+    font-size: 96px;
+    line-height: 1;
+  }
+
+  .error__text {
+    max-width: 260px;
+    margin: 0 auto 113px;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  .error__link {
+    display: block;
+    margin-bottom: 113px;
+    font-size: 14px;
+    text-align: center;
+  }
+}

@@ -1,10 +1,10 @@
 import "./Footer.css";
+import logoWhite from "../assets/logo-kasa-white.png";
 
 function Footer() {
   return (
     <footer className="footer">
-      <div className="footer__logo">Kasa</div>
-      <p className="footer__text">© 2020 Kasa. All rights reserved</p>
+      <img src={logoWhite} alt="Kasa" className="footer__logo" />
     </footer>
   );
 }

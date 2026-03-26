@@ -12,3 +12,13 @@
 .rating__star--active {
   color: #ff6060;
 }
+
+@media (max-width: 768px) {
+  .rating {
+    gap: 5px;
+  }
+
+  .rating__star {
+    font-size: 18px;
+  }
+}
