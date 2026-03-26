@@ -9,6 +9,7 @@
   max-width: 93px;
   font-size: 18px;
   font-weight: 500;
+  line-height: 1.4;
   color: #ff6060;
   text-align: right;
 }
@@ -18,4 +19,5 @@
   height: 64px;
   border-radius: 50%;
   object-fit: cover;
+  flex-shrink: 0;
 }

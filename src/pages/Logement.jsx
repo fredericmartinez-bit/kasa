@@ -4,6 +4,7 @@ import Collapse from "../components/Collapse";
 import Tag from "../components/Tag";
 import Rating from "../components/Rating";
 import Host from "../components/Host";
+import Carousel from "../components/Carousel";
 import "./Logement.css";
 
 function Logement() {
@@ -34,11 +35,7 @@ function Logement() {
 
   return (
     <main className="logement">
-      <img
-        src={logement.cover}
-        alt={logement.title}
-        className="logement__cover"
-      />
+      <Carousel pictures={logement.pictures} title={logement.title} />
 
       <section className="logement__header">
         <div className="logement__infos">

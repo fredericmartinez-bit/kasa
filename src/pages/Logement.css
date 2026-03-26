@@ -15,7 +15,8 @@
 .logement__header {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  align-items: flex-start;
+  gap: 50px;
   margin-bottom: 24px;
 }
 
@@ -40,10 +41,12 @@
 }
 
 .logement__host-rating {
+  min-width: 200px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 24px;
+  justify-content: space-between;
+  gap: 21px;
 }
 
 .logement__collapses {
@@ -51,4 +54,16 @@
   grid-template-columns: 1fr 1fr;
   gap: 76px;
   margin-bottom: 50px;
+}
+.logement__collapses .collapse__button {
+  height: 52px;
+  font-size: 18px;
+}
+
+.logement__collapses .collapse__content p {
+  font-size: 18px;
+  line-height: 1.4;
+}
+.logement__infos {
+  flex: 1;
 }
