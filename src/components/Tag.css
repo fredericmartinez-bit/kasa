@@ -1,12 +1,13 @@
 .tag {
-  min-width: 115px;
+  min-width: 84px;
   height: 25px;
-  padding: 0 20px;
+  padding: 0 18px;
   border-radius: 10px;
   background-color: #ff6060;
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;
+  line-height: 1;
   display: inline-flex;
   align-items: center;
   justify-content: center;

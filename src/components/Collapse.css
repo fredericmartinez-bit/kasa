@@ -19,8 +19,14 @@
 }
 
 .collapse__icon {
-  font-size: 24px;
-  line-height: 1;
+  font-size: 18px;
+  color: #ffffff;
+  transition: transform 0.2s ease;
+  transform: rotate(-90deg);
+}
+
+.collapse__icon--open {
+  transform: rotate(90deg);
 }
 
 .collapse__content {

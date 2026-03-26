@@ -8,14 +8,14 @@ function Collapse({ title, content }) {
     <section className="collapse">
       <button className="collapse__button" onClick={() => setIsOpen(!isOpen)}>
         <span>{title}</span>
-        <span className="collapse__icon">{isOpen ? "˅" : "˄"}</span>
+        <span
+          className={`collapse__icon ${isOpen ? "collapse__icon--open" : ""}`}
+        >
+          ❯
+        </span>
       </button>
 
-      {isOpen && (
-        <div className="collapse__content">
-          <p>{content}</p>
-        </div>
-      )}
+      {isOpen && <div className="collapse__content">{content}</div>}
     </section>
   );
 }

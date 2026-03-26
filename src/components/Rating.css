@@ -4,7 +4,8 @@
 }
 
 .rating__star {
-  font-size: 24px;
+  font-size: 30px;
+  line-height: 1;
   color: #e3e3e3;
 }
 

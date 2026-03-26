@@ -38,6 +38,7 @@
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+  margin-top: 4px;
 }
 
 .logement__host-rating {
@@ -66,4 +67,19 @@
 }
 .logement__infos {
   flex: 1;
+}
+.logement__equipments {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.logement__equipments li {
+  margin-bottom: 6px;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.logement__equipments li:last-child {
+  margin-bottom: 0;
 }
