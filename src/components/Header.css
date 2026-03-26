@@ -7,9 +7,9 @@
 }
 
 .header__logo {
-  font-size: 48px;
-  font-weight: 700;
-  color: #ff6060;
+  width: 210px;
+  height: auto;
+  display: block;
 }
 
 .header__nav {
