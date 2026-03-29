@@ -41,7 +41,7 @@
   margin: 0;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 26px;
   color: #ffffff;
 }
 
@@ -56,6 +56,6 @@
     line-height: 1.4;
     left: 20px;
     right: 20px;
-    bottom: 15px;
+    bottom: 16px;
   }
 }

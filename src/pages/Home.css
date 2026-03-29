@@ -16,6 +16,7 @@
 @media (max-width: 768px) {
   .home {
     max-width: 100%;
+    padding: 0 12px;
   }
 
   .home__gallery {
@@ -24,7 +25,7 @@
     padding: 0 20px;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 27px;
     margin-bottom: 27px;
   }
 }

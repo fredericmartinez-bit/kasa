@@ -15,10 +15,11 @@
 
 @media (max-width: 768px) {
   .tag {
-    min-width: 84px;
+    min-width: 70px;
     height: 18px;
-    padding: 0 12px;
+    padding: 0 14px;
     border-radius: 5px;
     font-size: 10px;
+    line-height: 14px;
   }
 }

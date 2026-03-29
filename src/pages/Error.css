@@ -34,26 +34,41 @@
 
 @media (max-width: 768px) {
   .error {
+    max-width: 100%;
     padding: 20px;
+    min-height: auto;
+    justify-content: flex-start;
+    gap: 0;
   }
 
   .error__title {
-    margin: 110px 0 113px;
+    width: 198px;
+    height: 99px;
+    margin: 60px auto 80px;
+    font-family: "Montserrat", sans-serif;
     font-size: 96px;
-    line-height: 1;
+    font-weight: 700;
+    line-height: 99px;
+    letter-spacing: 0;
+    color: #ff6060;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .error__text {
-    max-width: 260px;
-    margin: 0 auto 113px;
+    width: 260px;
+    height: 52px;
+    margin: 0 auto 90px;
     font-size: 18px;
-    line-height: 1.4;
+    font-weight: 500;
+    line-height: 26px;
     text-align: center;
   }
 
   .error__link {
     display: block;
-    margin-bottom: 113px;
+    margin-bottom: 44px;
     font-size: 14px;
     text-align: center;
   }

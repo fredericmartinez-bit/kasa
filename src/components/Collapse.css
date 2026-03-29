@@ -41,3 +41,34 @@
   font-weight: 400;
   color: #000000;
 }
+
+@media (max-width: 768px) {
+  .collapse {
+    width: 100%;
+  }
+
+  .collapse__button {
+    width: 100%;
+  }
+
+  .collapse__button {
+    height: 30px;
+    padding: 0 12px;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+
+  .collapse__icon {
+    font-size: 16px;
+  }
+
+  .collapse__content {
+    padding: 17px 12px 12px;
+    border-radius: 0 0 5px 5px;
+  }
+
+  .collapse__content p {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

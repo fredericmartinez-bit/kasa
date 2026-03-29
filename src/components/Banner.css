@@ -17,22 +17,23 @@
   margin: 0;
   font-size: 48px;
   font-weight: 700;
+  line-height: 68px;
   color: #ffffff;
 }
 
 @media (max-width: 768px) {
   .banner {
-    height: 111px;
-    margin: 0 20px 22px;
+    height: 100px;
+    margin: 0 20px 20px;
     border-radius: 10px;
     justify-content: flex-start;
-    align-items: center;
-    padding: 0 16px;
+    align-items: flex-start;
+    padding: 16px;
   }
-
   .banner__title {
     font-size: 24px;
-    line-height: 1;
-    max-width: 217px;
+    line-height: 24px;
+    max-width: 190px;
+    text-align: left;
   }
 }

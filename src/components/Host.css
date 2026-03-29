@@ -24,13 +24,16 @@
 
 @media (max-width: 768px) {
   .host {
-    gap: 10px;
+    gap: 14px;
+    align-items: center;
+    margin-right: 0px;
   }
 
   .host__name {
     font-size: 12px;
     text-align: right;
-    max-width: 70px;
+    max-width: 60px;
+    line-height: 17px;
   }
 
   .host__picture {

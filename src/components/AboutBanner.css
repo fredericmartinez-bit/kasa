@@ -6,3 +6,11 @@
   background-size: cover;
   background-position: center;
 }
+
+@media (max-width: 768px) {
+  .about-banner {
+    height: 111px;
+    margin: 0 0 19px;
+    border-radius: 10px;
+  }
+}

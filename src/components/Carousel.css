@@ -46,24 +46,33 @@
 
 @media (max-width: 768px) {
   .carousel {
+    width: 100%;
+    max-width: 335px;
     height: 255px;
-    margin-bottom: 15px;
+    margin: 0 auto 15px;
+    position: relative;
+    left: -4px;
   }
-
   .carousel__image {
     border-radius: 10px;
   }
 
   .carousel__button {
-    font-size: 24px;
+    width: 26px;
+    height: 26px;
+    font-size: 28px;
+    line-height: 1;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-
   .carousel__button--left {
-    left: 6px;
+    left: 8px;
   }
 
   .carousel__button--right {
-    right: 6px;
+    right: 8px;
   }
 
   .carousel__counter {

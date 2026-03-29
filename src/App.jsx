@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -7,8 +7,16 @@ import Logement from "./pages/Logement";
 import Error from "./pages/Error";
 
 function App() {
+  const location = useLocation();
+  const isLogementPage = location.pathname.startsWith("/logement/");
+  const isAboutPage = location.pathname === "/about";
+
   return (
-    <>
+    <div
+      className={
+        isLogementPage ? "logement-page" : isAboutPage ? "about-page" : ""
+      }
+    >
       <Header />
 
       <Routes>
@@ -20,7 +28,7 @@ function App() {
       </Routes>
 
       <Footer />
-    </>
+    </div>
   );
 }
 

@@ -15,7 +15,8 @@
 
 @media (max-width: 768px) {
   .rating {
-    gap: 5px;
+    gap: 6px;
+    margin-left: 0px;
   }
 
   .rating__star {
