@@ -11,6 +11,10 @@
   gap: 30px;
 }
 
+.about-page .footer {
+  margin-top: 20px;
+}
+
 @media (max-width: 768px) {
   .about {
     max-width: 100%;

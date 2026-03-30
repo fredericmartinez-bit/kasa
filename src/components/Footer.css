@@ -34,6 +34,11 @@
     display: inline;
     margin-left: 4px;
   }
+
+  .footer {
+    margin-bottom: 0;
+    overflow: hidden;
+  }
 }
 
 @media (max-width: 768px) {
